@@ -28,4 +28,5 @@ This script is crawling ridibooks's latest lite novel updates, save them to txt 
 8. Create a app inslack and update bot User OAuth Access Token info in list_update.py
 9. Install Slacker (sudo pip install slacker)
 10. Config crontab so that the bot can send updates daily.
+
        . <hour> * * * export DISPLAY=:1 && cd <list_update.py file location> && /usr/bin/python3.6 list_update.py > list_update.log 2>&1
