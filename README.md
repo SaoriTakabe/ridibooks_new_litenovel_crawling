@@ -15,6 +15,7 @@ This script is crawling ridibooks's latest lite novel updates, save them to txt 
 3. Access EC2 using GUI
 4. Install Selenium in Ubuntu (sudo pip install selenium)
 5. Install Chrome in Ubuntu
+
         wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
         sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
         sudo apt-get update
