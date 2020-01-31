@@ -11,7 +11,9 @@ Prerequisite
 This script is crawling ridibooks's latest lite novel updates, save them to txt file in EC2 instance, and it to slack using crontab and slack bot 
 
 1. Create Ubuntu EC2 instance.
-2. Setting Ubuntu EC2 GUI setting(https://medium.com/@0xson/running-ubuntu-desktop-gui-aws-ec2-instance-on-windows-3d4d070da434)
+2. Setting Ubuntu EC2 GUI setting
+
+(https://medium.com/@0xson/running-ubuntu-desktop-gui-aws-ec2-instance-on-windows-3d4d070da434)
 3. Access EC2 using GUI
 4. Install Selenium in Ubuntu (sudo pip install selenium)
 5. Install Chrome in Ubuntu
