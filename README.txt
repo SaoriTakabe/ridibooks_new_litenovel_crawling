@@ -1,7 +1,8 @@
 # ridibooks_new_litenovel_crawling
 
 Prerequisite
-- Python 3.X (Tested Python3.6)
+- Ubuntu (Ubuntu 20.0.4 LTS)
+- Python 3.X (Tested Python3.8.2)
 - Selenium
 - Chrome web driver( this file and list_update.py should be in the same directory)
 - Slacker
@@ -29,9 +30,11 @@ This script is crawling ridibooks's latest lite novel updates, save them to txt 
         sudo apt-get clean
         sudo apt-get update
         
-6. Downlaod chromedriver which version fits your current Chrome in Ubuntu (https://chromedriver.chromium.org/downloads)
+6. Downlaod chromedriver which version fits your current Chrome in Ubuntu (https://chromedriver.chromium.org/downloads). The file name will be chromedriver_linux64.zip
 
 7. Extract the downloaded chromedirver zip file in the same directory where list_update.py is located
+        sudo apt-get install unzip
+        unzip chromedriver_linux64.zip
 
 8. Create a app inslack and update bot User OAuth Access Token info in list_update.py
 
