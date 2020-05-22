@@ -23,7 +23,7 @@ try:
     f.close()
     r = open('new_lists.txt','r')
     title = r.read()
-    slack.chat.post_message('#ridibooks', title)
+    slack.chat.post_message('#[your slack channel]', title)
     r.close()
 except Exception as e:
     print(e)
