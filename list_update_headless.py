@@ -1,6 +1,6 @@
 from selenium import webdriver
 from slacker import Slacker #send a messate slack
-slack = Slacker('xoxb-585845260068-904428683623-4fr6v6xN0nMDNA45aMJR5ReG')
+slack = Slacker('your bot token start with xoxb-')
 import datetime #add time info
 f = open('new_lists.txt','w')
 myoptions = webdriver.ChromeOptions()
