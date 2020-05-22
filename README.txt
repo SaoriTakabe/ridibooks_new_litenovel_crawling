@@ -17,7 +17,7 @@ This script is crawling ridibooks's latest lite novel updates, save them to txt 
 
 3. Access EC2 using GUI
 
-4. Install Selenium in Ubuntu (sudo pip install selenium)
+4. Install Selenium in Ubuntu ( sudo apt-get install python3-pip and then sudo pip install selenium)
 
 5. Install Chrome in Ubuntu
 
