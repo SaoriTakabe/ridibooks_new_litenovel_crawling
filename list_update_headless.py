@@ -10,7 +10,7 @@ myoptions.add_argument("--start-maximized")
 myoptions.add_argument("--no-sandbox")
 myoptions.add_argument('window-size=1920x1080') #for headless mode
 myoptions.add_argument('headless') #for headless mode
-driver = webdriver.Chrome('/home/lsh41610/ridibooks_new_litenovel_crawling/chromedriver', options=myoptions) #add parmeter options=[webdriver chrome options]
+driver = webdriver.Chrome('your chromedirver location', options=myoptions) #add parmeter options=[webdriver chrome options]
 dt = datetime.datetime.now() #add time info
 try:
     driver.get('https://ridibooks.com/category/new-releases/3000?order=recent') #crawling lite novel new-release page using h3 tag
